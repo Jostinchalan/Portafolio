@@ -94,7 +94,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full blur-2xl opacity-30 animate-pulse"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-slate-300 dark:border-slate-700 shadow-2xl">
                 <img
-                  src="/public/foto_perfil.png"
+                  src="/foto_perfil.png"
                   alt="Jostin Fernando Chalan Mora"
                   className="w-full h-full object-cover"
                 />
