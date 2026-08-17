@@ -1,0 +1,147 @@
+================================================================================
+  PORTAFOLIO JOSTIN CHALAN MORA - INSTRUCCIONES DE INSTALACION
+================================================================================
+
+¡BIENVENIDO!
+
+Este es tu portafolio profesional listo para usar.
+
+================================================================================
+IMPORTANTE: LOS ARCHIVOS NO ESTAN EN LA ESTRUCTURA CORRECTA
+================================================================================
+
+Debes reorganizarlos antes de usar. Sigue estos pasos:
+
+--------------------------------------------------------------------------------
+PASO 1: LEE ESTAS GUIAS EN ORDEN
+--------------------------------------------------------------------------------
+
+1. DESCARGA-E-INSTALACION.md  <-- EMPIEZA AQUI (Guia completa)
+2. COMO-ORGANIZAR-PROYECTO.md  <-- Como organizar archivos
+3. LEEME-PRIMERO.md            <-- Introduccion general
+
+En la carpeta 'documentacion/' encontraras mas guias detalladas.
+
+--------------------------------------------------------------------------------
+PASO 2: REQUISITOS PREVIOS
+--------------------------------------------------------------------------------
+
+Antes de empezar, necesitas instalar:
+
+1. Node.js version 18 o superior
+   Descargar: https://nodejs.org/
+   Elige la version LTS (recomendada)
+
+2. Visual Studio Code
+   Descargar: https://code.visualstudio.com/
+
+--------------------------------------------------------------------------------
+PASO 3: ORGANIZACION RAPIDA
+--------------------------------------------------------------------------------
+
+Estructura que debes crear:
+
+portafolio-jostin/
+├── src/
+│   ├── components/
+│   │   ├── ui/         <-- ~49 archivos aqui
+│   │   └── figma/
+│   └── styles/
+├── public/             <-- Tu foto aqui
+└── documentacion/      <-- Archivos .md aqui
+
+Archivos de configuracion (package.json, vite.config.ts, etc.) van en la raiz.
+
+--------------------------------------------------------------------------------
+PASO 4: INSTALACION
+--------------------------------------------------------------------------------
+
+Una vez organizados los archivos:
+
+1. Abre la carpeta en Visual Studio Code
+   Archivo > Abrir Carpeta > Selecciona 'portafolio-jostin'
+
+2. Abre la terminal en VS Code
+   Presiona: Ctrl + Ñ
+
+3. Instala las dependencias:
+   npm install
+
+4. Ejecuta el proyecto:
+   npm run dev
+
+5. Abre el navegador en:
+   http://localhost:5173
+
+--------------------------------------------------------------------------------
+PASO 5: PERSONALIZACION
+--------------------------------------------------------------------------------
+
+Edita estos archivos para personalizar:
+
+- src/components/Hero.tsx          (Tu presentacion)
+- src/components/Projects.tsx      (Tus proyectos)
+- src/components/Skills.tsx        (Tus habilidades)
+- src/components/Contact.tsx       (Tu contacto)
+- src/components/ChatBot.tsx       (Configuracion chatbot)
+
+Guarda tu foto en: public/perfil.png
+
+--------------------------------------------------------------------------------
+¿PROBLEMAS?
+--------------------------------------------------------------------------------
+
+Consulta estas guias en 'documentacion/':
+
+- PASOS-COMPLETOS.md       - Guia paso a paso detallada
+- GUIA-RAPIDA.md           - Instalacion rapida
+- ESTRUCTURA-PROYECTO.md   - Explicacion del codigo
+
+--------------------------------------------------------------------------------
+CARACTERISTICAS INCLUIDAS
+--------------------------------------------------------------------------------
+
+✓ Diseño responsivo (movil, tablet, desktop)
+✓ Modo oscuro funcional
+✓ Chatbot integrado con WhatsApp (+593980601334)
+✓ 6 secciones completas
+✓ Optimizado y moderno
+
+--------------------------------------------------------------------------------
+TECNOLOGIAS
+--------------------------------------------------------------------------------
+
+- React 18 + TypeScript
+- Tailwind CSS v4.0
+- Vite (build tool)
+- Lucide React (iconos)
+
+--------------------------------------------------------------------------------
+COMANDOS UTILES
+--------------------------------------------------------------------------------
+
+Iniciar servidor de desarrollo:
+npm run dev
+
+Compilar para produccion:
+npm run build
+
+Detener servidor:
+Ctrl + C
+
+--------------------------------------------------------------------------------
+CONTACTO
+--------------------------------------------------------------------------------
+
+Email:     jostinmora740@gmail.com
+GitHub:    github.com/Jostinchalan
+Instagram: @fernan_jostin
+WhatsApp:  +593980601334
+
+================================================================================
+
+¡Exito con tu portafolio! 🚀
+
+Lee DESCARGA-E-INSTALACION.md para instrucciones completas paso a paso.
+
+================================================================================
